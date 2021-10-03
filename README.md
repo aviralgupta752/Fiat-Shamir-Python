@@ -10,8 +10,8 @@ pip3 install -r requirements.txt
 ## Description
 1. A chooses a random r in the interval (1, n-1) and sends r<sup>2</sup>%n to B.
 2. B randomly selects a bit e (0 or 1) and sends it to A.
-3. A computes (r(v<sup>e</sup>))%n and sends it back to B.
-4. Party B checks the equality y<sup>2</sup>=(x(v<sup>e</sup>))%n. If it is true, it proceeds to the next round of the protocol, otherwise the proof is not accepted.
+3. A computes (rv<sup>e</sup>)%n and sends it back to B.
+4. Party B checks the equality y<sup>2</sup>=(xv<sup>e</sup>)%n. If it is true, it proceeds to the next round of the protocol, otherwise the proof is not accepted.
 
 ## Usage
 ```bash
