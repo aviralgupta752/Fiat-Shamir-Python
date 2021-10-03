@@ -8,7 +8,10 @@ cd Fiat-Shamir-Python
 pip3 install -r requirements.txt
 ```
 ## Description
-
+1. A chooses a random r in the interval (1, n-1) and sends r^2%n to B.
+2. B randomly selects a bit e(0 or 1) and sends it to A.
+3. A computes (r(v^e))%n and sends it back to B.
+4. Party B checks the equality y^2=(x(v^e))%n. If it is true, it proceeds to the next round of the protocol, otherwise the proof is not accepted.
 
 ## Usage
 ```bash
