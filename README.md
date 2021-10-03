@@ -4,9 +4,7 @@ Python implementation of Fiat-Shamir Protocol.
 ## Installation
 ```bash
 git clone https://github.com/noob-aViral/Fiat-Shamir-Python.git
-
 cd Fiat-Shamir-Python
-
 pip3 install -r requirements.txt
 ```
 ## Description
@@ -18,11 +16,8 @@ python3 code.py
 ```
 
 ## Sample Output
-<img src="ss.jpg" raw=true alt="sample code run" style="margin-right: 10px;"/>
-
+<b>Note: </b> Output will be different for different run.
 ![Test Image](ss.jpg)
-![Test Image](https://github.com/noob-aViral/Fiat-Shamir-Python/ss.jpg)
-
 ```python
 Alice has the secret.
 Message         =  5496901626695654754356153835892
