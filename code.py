@@ -21,7 +21,7 @@ if __name__ == "__main__":
 	# Bob randomly selects a bit e (0 or 1) and sends it to Alice.
 	e = random.randint(0, 1)
 
-	# Alice computes y=(r*(v**e))%n and sends it back to Bob.
+	# Alice computes y=(r*(S**e))%n and sends it back to Bob.
 	y = (r*(S**e))%n
 
 	# Bob checks the equality y**2 == (x*(v**e))%n. If it is true, it proceeds to the next round of 
